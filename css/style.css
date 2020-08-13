@@ -1949,7 +1949,7 @@ input:disabled {
         }
 
         .radio-p {
-            width: calc(50% - 5px);
+            width: 100%;
             height: 120px;
             border-radius: 10px;
         }
