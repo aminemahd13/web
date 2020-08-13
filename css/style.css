@@ -1574,7 +1574,7 @@ input {
     font-size: 16px;
     border-radius: 5px;
     width: 100%;
-    float: left;
+    float: center;
     border: none;
     background: #fff;
     line-height: 50px;
@@ -1869,7 +1869,7 @@ input:disabled {
     }
 
     #choose-package .pro-badge {
-        position: relative;
+        position: absolute;
         top: 30px;
         left: 50%;
         margin: 0;
