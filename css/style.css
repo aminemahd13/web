@@ -1834,7 +1834,7 @@ input:disabled {
     }
 
     .radio-p {
-        float: left;
+        float: center;
         position: relative;
         cursor: pointer;
         -webkit-user-select: none;
