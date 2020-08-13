@@ -1869,7 +1869,7 @@ input:disabled {
     }
 
     #choose-package .pro-badge {
-        position: absolute;
+        position: relative;
         top: 30px;
         left: 50%;
         margin: 0;
