@@ -17,8 +17,8 @@ h4 {font-size: 21px; line-height: 30px;font-family: 'Silka-SemiBold', sans-serif
 p  {font-size: 18px; line-height: 30px; font-family: 'benton-sans', sans-serif; margin-bottom: 30px; font-weight: 500; color: #6A7076;}
 strong 	    {font-family: 'benton-sans', sans-serif; font-weight: 700;}
 a           {text-decoration: none;}
-p a  		{color: #0071FF;}
-p a:hover   {color: rgb(0, 77, 177);}
+p a  		{color: rgb(157, 6, 187);}
+p a:hover   {color: rgb(157, 6, 187);}
 
 @media screen and (max-width: 1300px){
     h1 {font-size: 52px; line-height: 62px;}
@@ -132,12 +132,12 @@ html, body {
     line-height: 30px; 
     text-decoration: none; 
     border-radius: 7px;
-    background: #0071FF;
+    background: rgb(157, 6, 187);
     font-weight: 600;
 }
 
 .btn:hover {
-    background: #0066E7;
+    background: rgb(187, 25, 219);
 }
 
 .btn.inactive {
@@ -303,7 +303,7 @@ html, body {
 
 .progressFill {
 	height: 100%;
-	background: #0071FF;
+	background: rgb(157, 6, 187);
 	width: 0%;
 }
 
@@ -1383,7 +1383,7 @@ html, body {
   
 #gdpr-box div.gdpr-button-accept:hover {
     cursor: pointer;
-    background: #0071FF;
+    background: rgb(157, 6, 187);
 }
     
 @media screen and (max-width: 520px){
@@ -1715,7 +1715,7 @@ select:-webkit-autofill:focus {
     right: 20px;
     z-index: 5;
     width: auto;
-    background: #0071FF;
+    background: rgb(157, 6, 187);
     color: #fff;
     font-weight: 600;
     font-size: 15px;
@@ -1724,7 +1724,7 @@ select:-webkit-autofill:focus {
 }
 
 .submit-button:hover {
-    background: #0066E7;
+    background: rgb(187, 25, 219);
 }
 
 input:disabled {
@@ -1919,13 +1919,13 @@ input:disabled {
         top: 35px;
     }
 
-    .radio-p h2 {
+    .radio-p h3 {
         color: #fff;
         text-align: center;
         text-transform: uppercase;
-        font-size: 32px;
+        font-size: 30px;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -1933,10 +1933,10 @@ input:disabled {
     .radio-p span {
         color: #fff;
         opacity: .5;
-        font-size: 14px;
+        font-size: 20px;
         font-family: 'Silka-Bold', sans-serif;
         position: absolute;
-        bottom: 37px;
+        bottom: 34px;
         width: 100%;
         text-align: center;
         font-weight: 400;
@@ -3273,7 +3273,7 @@ background: rgb(225, 227, 230);
 }
 
 .challenge-info a:hover {
-    color: rgb(0, 77, 177);
+    color: rgb(157, 6, 187);
 }
 
 @media screen and (max-width: 1300px){
@@ -3483,11 +3483,11 @@ background: rgb(225, 227, 230);
 }
 
 .article a {
-    color: #0071FF;
+    color: rgb(157, 6, 187);
 }
 
 .article a:hover {
-    color: rgb(0, 77, 177);
+    color: rgb(157, 6, 187);
 }
 
 .article p {
@@ -3683,7 +3683,7 @@ background: rgb(225, 227, 230);
 }
 
 .challenge-images a:hover{
-    color: rgb(0, 77, 177);
+    color: rgb(157, 6, 187);
 }
 
 .challenge-images:nth-child(1) a:before, .challenge-images:nth-child(2) a:before, .challenge-images:nth-child(3) a:before{
