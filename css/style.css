@@ -438,7 +438,7 @@ html, body {
 
 .stats .social-link {
     height: 50px;
-    background: rgb(240, 240, 240);
+    background: #f0f0f0;
     border-radius: 15px;
     padding: 10px 10px 10px 15px; 
     line-height: 30px;
@@ -496,7 +496,7 @@ html, body {
     .stats .social-link {
         display: inline-block;
         width: 240px;
-        text-align: left;
+        text-align: center;
     }
 
     .stats .social-link span {
