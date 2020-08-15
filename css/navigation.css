@@ -3,8 +3,8 @@
 
 .logo {
     position: absolute;
-	 left: 45px;
-	 top: 40%;
+	 left: 35px;
+	 top: 45%;
 	 transform: translate(0, -35%);
 	 z-index: 8;
 }
