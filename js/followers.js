@@ -1,4 +1,4 @@
-// FOLLOWERS WELOVEWEBDESIGN
+
 	
 $(document).ready(function(){	
 var token = '3939283418.1677ed0.b340e29f299c498b968c9e8991670345';
@@ -23,7 +23,7 @@ var token = '3939283418.1677ed0.b340e29f299c498b968c9e8991670345';
   });
 });
 
-// FOLLOWERS WELOVEBRANDING
+
 	
 $(document).ready(function(){	
 var token = '3954040166.1677ed0.33552ccc18c147699e37d87361a5dbc0';
@@ -48,7 +48,6 @@ var token = '3954040166.1677ed0.33552ccc18c147699e37d87361a5dbc0';
   });
 });
 
-// FOLLOWERS WELOVEILLUSTRATION
 	
 $(document).ready(function(){	
 var token = '3940206495.1677ed0.ee2b7eec4b484fe19a32f04691483601';
@@ -74,7 +73,6 @@ var token = '3940206495.1677ed0.ee2b7eec4b484fe19a32f04691483601';
 });
 
 
-// FOLLOWERS WELOVEANIMATIONS
 	
 $(document).ready(function(){	
 var token = '5935115898.1677ed0.3d56dbc6bf924369ba74e1d9be3c762e';

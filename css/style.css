@@ -1430,7 +1430,7 @@ body#applications {
 }
 
 .faq-button {
-	color: #6A7076;
+	color: #474c50;
 	font-family: 'Silka-Medium', sans-serif;
 	font-size: 15px;
 	line-height: 16px;
@@ -1534,7 +1534,7 @@ label {
 	line-height: 24px;
 	font-size: 14px;
     font-weight: 600;
-    color: #40474F;
+    color: #1a1d20;
     padding: 10px 0;
     margin-top: 15px;
 }
@@ -1576,13 +1576,84 @@ input {
     width: 100%;
     float: center;
     border: none;
-    background: #fff;
+    background: #e7e5e5;
     line-height: 50px;
     padding: 0 20px 0 20px;
+    color: #3c3d3f;
+    font-weight: 500;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+  }
+
+input:focus {
+    background-color: #dbd9d9;
+  }
+
+
+.textarea {
+	float: left;
+    width: 100%;
+    position: relative;
+}
+
+label {
+	width: 100%;
+	float: left;
+	line-height: 24px;
+	font-size: 14px;
+    font-weight: 600;
+    color: #373c42;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+.first-label {
+    margin-top: 0;
+}
+
+label span {
+	color: #727c86;
+	font-size: 12px;
+}
+
+
+textarea {
+    border:0;
+    box-sizing: border-box;
+    height: 150px;
+    
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    float: center;
+    border: none;
+    background: #e7e5e5;
+    line-height: 23px;
+    padding: 7px 10px 0 10px;
     color: #292C30;
     font-weight: 500;
-    
+    resize: none
 }
+
+
+
+textarea:focus {
+    background-color: #dbd9d9;
+  }
+
+
 
 textarea:focus, input:focus{
     outline: none;
