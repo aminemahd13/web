@@ -1584,18 +1584,7 @@ input {
 
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: red;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: red;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: red;
-  }
+
 
 input:focus {
     background-color: #dbd9d9;
@@ -1633,7 +1622,6 @@ textarea {
     border:0;
     box-sizing: border-box;
     height: 150px;
-    
     font-size: 16px;
     border-radius: 5px;
     width: 100%;
@@ -1781,9 +1769,9 @@ select:-webkit-autofill:focus {
 /* ------------------------- Submit - Submit button -------------------------------------------------- */
 
 .submit-button {
-    position: fixed;
-    bottom: 10px;
-    right: 20px;
+    position: relative;
+    bottom: -30px;
+    right: center;
     z-index: 5;
     width: auto;
     background: rgb(157, 6, 187);
@@ -1804,7 +1792,7 @@ input:disabled {
 
 @media screen and (max-width: 600px){
     .submit-button {
-        right: 10px;
+        right: center;
     }
 }
 
