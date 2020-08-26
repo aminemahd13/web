@@ -1770,7 +1770,7 @@ select:-webkit-autofill:focus {
 
 .submit-button {
     position: relative;
-    bottom: -30px;
+    bottom: -25px;
     right: center;
     z-index: 5;
     width: auto;
