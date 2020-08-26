@@ -1550,7 +1550,7 @@ label span {
 
 .pro-badge {
     height: 24px;
-    color: #fff;
+    color: #e7e5e5;
     line-height: 24px;
     display: inline-block;
     border-radius: 7px;
@@ -1670,7 +1670,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   -webkit-text-fill-color: #292C30;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  -webkit-box-shadow: 0 0 0px 1000px #e7e5e5 inset;
   transition: background-color 5000s ease-in-out 0s;
 }
 
