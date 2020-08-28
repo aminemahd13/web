@@ -567,7 +567,7 @@ html, body {
 /* ------------------------- Home - Credits -------------------------------------------------- */
 
 .credits {
-    padding: 160px 0 180px 0;
+    padding: 160px 0 80px 0;
     background: #E6E9EC;
     overflow: hidden;
 }
@@ -578,16 +578,17 @@ html, body {
 }
 
 .credits img {
-    width: 483px;
+    width: 690px;
+    height: 600px;
     position: absolute;
-    bottom: 140px;
-    left: 50%;
-    transform: translate(-520px, 0);
+    bottom: 0px;
+    left: 52.5%;
+    transform: translate(-720px, 0);
 }
 
 @media screen and (max-width: 1300px){
     .credits {
-        padding: 130px 0 150px 0;
+        padding: 130px 0 100px 0;
     }
 
     .credits .sub-wrap {
@@ -595,9 +596,9 @@ html, body {
     }
 
     .credits img {
-        width: 400px;
-        bottom: 90px;
-        transform: translate(-460px, 0);
+        width: 600px;
+        bottom: 0px;
+        transform: translate(-700px, 00px);
     }
 
 }
@@ -615,8 +616,9 @@ html, body {
     .credits img {
         position: absolute;
         bottom: auto;
-        top: -250px;
+        top: -350px;
         left: 50%;
+        width: 100%;
         transform: translate(-50%, 0);
     }
     
