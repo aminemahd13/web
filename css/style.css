@@ -578,9 +578,9 @@ html, body {
 }
 
 .credits img {
-    width: 483px;
+    width: 410px;
     position: absolute;
-    bottom: 140px;
+    bottom: 120px;
     left: 50%;
     transform: translate(-520px, 0);
 }
@@ -615,7 +615,7 @@ html, body {
     .credits img {
         position: absolute;
         bottom: auto;
-        top: -250px;
+        top: -350px;
         left: 50%;
         transform: translate(-50%, 0);
     }
@@ -642,7 +642,7 @@ html, body {
 }
 
 .pro img {
-    width: 300px;
+    width: 350px;
     position: absolute;
     top: 140px;
     left: 50%;
@@ -652,15 +652,15 @@ html, body {
 .pro img.pro-follower {
     width: 110px;
     z-index: 2;
-    transform: translate(410px, 180px);
+    transform: translate(435px, 180px);
     -webkit-animation: bounce-follower-gold 2.5s ease-in-out;
     -webkit-animation-iteration-count: infinite; 
 }
 
 @-webkit-keyframes bounce-follower-gold {
-    0% {transform: translate(410px, 180px);}
-    50% {transform: translate(410px, 200px);}
-    100% {transform: translate(410px, 180px);}
+    0% {transform: translate(435px, 180px);}
+    50% {transform: translate(435px, 200px);}
+    100% {transform: translate(435px, 180px);}
 }
 
 .pro h3 {
@@ -677,12 +677,22 @@ html, body {
 
 .pro h2 span {
     background: rgb(215,184,153);
-    background: linear-gradient(135deg, rgba(215,184,153,1) 0%, rgba(168,116,70,1) 100%);
+    background: linear-gradient(135deg, #833AB4 0%, #F77737 100%);
     text-transform: uppercase;
-    font-size: 18px;
-    padding: 7px 10px;
+    font-size: 20px;
+    padding: 10px 10px;
     border-radius: 10px;
 }
+ .pro h3 span {
+    background: rgb(215,184,153);
+    background: linear-gradient(135deg, #ffc130 0%, #F77737 100%);
+    text-transform: uppercase;
+    color : #f0f0f0;
+    font-size: 12px;
+    padding: 7px 7px;
+    border-radius: 10px;
+}
+
 
 @media screen and (max-width: 1300px){
     .pro {
@@ -697,21 +707,21 @@ html, body {
     }
     
     .pro img {
-        width: 260px;
+        width: 330px;
         position: absolute;
         top: 110px;
-        transform: translate(140px, 0);
+        transform: translate(90px, 0);
     }
 
     .pro img.pro-follower {
         width: 90px;
-        transform: translate(350px, 160px);
+        transform: translate(345px, 160px);
     }
     
     @-webkit-keyframes bounce-follower-gold {
-        0% {transform: translate(350px, 160px);}
-        50% {transform: translate(350px, 180px);}
-        100% {transform: translate(350px, 160px);}
+        0% {transform: translate(345px, 160px);}
+        50% {transform: translate(345px, 180px);}
+        100% {transform: translate(345px, 160px);}
     }
 
 }
@@ -729,22 +739,22 @@ html, body {
     .pro img {
         position: absolute;
         top: auto;
-        bottom: -140px;
+        bottom: -200px;
         left: 50%;
         transform: translate(-50%, 0);
     }
 
     .pro img.pro-follower {
         width: 90px;
-        transform: translate(70px, 180px);
+        transform: translate(90px, 180px);
         top: auto;
         bottom: 350px;
     }
     
     @-webkit-keyframes bounce-follower-gold {
-        0% {transform: translate(70px, 180px);}
-        50% {transform: translate(70px, 200px);}
-        100% {transform: translate(70px, 180px);}
+        0% {transform: translate(90px, 180px);}
+        50% {transform: translate(90px, 200px);}
+        100% {transform: translate(90px, 180px);}
     }
 }
 
@@ -935,6 +945,8 @@ html, body {
         transform: translate(0px, -50%);
     }
 }
+
+
 
 
 
